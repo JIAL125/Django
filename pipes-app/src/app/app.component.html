@@ -1,0 +1,29 @@
+<header class="bg-blue-600 w-full text-white text-center">
+  <div>
+    <h1 class="text-5xl font-bold py-3">UTVT</h1>
+    <h2 class="text-3xl py-7">PIPES</h2>
+  </div>
+</header>
+
+<main class="w-auto content-center  p-20 ">
+  <div
+    id="tasks"
+    class="p-5 text-base font-medium text-gray-500 rounded-lg bg-gray-50 hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700 dark:hover:text-white"
+  >
+    <h3 class="text-5xl py-5 text-center">{{ title  }}</h3>
+    <div class='py-7 content-center'>
+      <p>Full name : {{ userInformation.fullname }}</p>
+      <p>
+        Birth date :
+        {{ userInformation.bithDate }}
+      </p>
+      <p>Age : {{ userInformation.age  }}</p>
+      <p>Weight : {{ userInformation.weight }}</p>
+      <p>Local salary : {{ userInformation.salary  }}</p>
+      <p>
+        Salary :
+        {{ userInformation.salary }}
+      </p>
+    </div>
+  </div>
+</main>
